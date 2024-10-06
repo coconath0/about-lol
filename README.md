@@ -8,6 +8,13 @@ This project is a simple informational website dedicated to *League of Legends*,
 
 You can view the live website at: [League of Legends Information Website](https://ritolol-info.netlify.app/)
 
+## Repository
+
+You can find the source code and project files in the GitHub repository: [GitHub Repository](https://github.com/coconath0/about-lol)
+
+## Deployment
+
+This project has been deployed on Netlify, allowing for easy access and demonstration of the website.
 
 ## Features
 
