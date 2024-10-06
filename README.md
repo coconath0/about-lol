@@ -11,6 +11,8 @@ You can view the live website at: [League of Legends Information Website](https:
 
 ## Features
 
+- **Dynamic Layout Switching**: Users can switch between three different layout styles using the navbar. The layouts are implemented through different CSS files (`layout1.css`, `layout2.css`, and `layout3.css`). Clicking on a layout link in the navbar dynamically changes the style of the page without reloading.
+  
 - **Informative Header**: Displays the title and subtitle of the website, introducing users to the world of *League of Legends*.
 - **Navigation Bar**: Includes links to key sections of the Riot Games website, allowing users to explore further:
   - [Riot Games](https://www.riotgames.com/en)
@@ -19,6 +21,12 @@ You can view the live website at: [League of Legends Information Website](https:
   - [Patch Notes](https://www.leagueoflegends.com/en-us/news/tags/patch-notes/)
   - [LOL Esports](https://lolesports.com/en-US/)
   - [LOL News](https://www.leagueoflegends.com/en-us/news/)
+
+  **Layouts:**
+  - Users can switch between different styles:
+    - Layout 1
+    - Layout 2
+    - Layout 3
 - **Main Content**: Contains detailed information about Riot Games, the gameplay mechanics of *League of Legends*, and its rich lore.
 - **Sidebar**: Highlights the key features of *League of Legends*, giving users quick insights into what the game offers.
 - **Footer**: Provides copyright information and links back to Riot Games.
