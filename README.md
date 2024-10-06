@@ -27,6 +27,7 @@ You can view the live website at: [League of Legends Information Website](https:
 
 - HTML5
 - CSS3
+- JavaScript
 - Responsive Design Principles
 
 ## Getting Started

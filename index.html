@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="layout2.css">
+    <link rel="stylesheet" href="layout1.css">
+    
+    <script>
+        function changeLayout(layout) {
+            const link = document.querySelector('link[rel="stylesheet"]');
+            link.href = layout;
+        }
+    </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 
 
     <title>Riot Games - LOL</title>
+
     <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhezOLltGn5kpWW5dwp7DXVzJth24R8q37cw2ZP5Shyphenhyphen_odpn5XCo0HZzcaMpWMzXGcQ56OvBMKiuy9GHeIGZkrzKoYazcwsJrPhRijAdyk3hqAk72tkga68yO5eX3PNpfEx16GMVWSJKk/s1600/4657.jpg" >
 
 </head>
@@ -26,6 +34,14 @@
             <li><a href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/" target="_blank">Patch Notes</a></li>
             <li><a href="https://lolesports.com/en-US/" target="_blank">LOL Esports</a></li>
             <li><a href="https://www.leagueoflegends.com/en-us/news/" target="_blank">LOL News</a></li>
+
+            <br>
+
+            <li><a style="color: #C8AA6E;"><b>Layouts:</b></a></li>
+            <li><a href="javascript:void(0);" onclick="changeLayout('layout1.css')">Layout 1</a></li>
+        <li><a href="javascript:void(0);" onclick="changeLayout('layout2.css')">Layout 2</a></li>
+        <li><a href="javascript:void(0);" onclick="changeLayout('layout3.css')">Layout 3</a></li>
+        
         </ul>
     </nav>
     <div class="container">
